@@ -51,3 +51,8 @@ In the MySQL console set a new password. To make that: mysqladmin -u root passwo
 In phpMyAdmin click in users and set the same password to the user root.
 
 Finally, set your new password in the config.inc.php. Don't change anything else in this file.
+
+JAVA
+
+1.Controller
+2.WYCZYŚĆ TARGET
