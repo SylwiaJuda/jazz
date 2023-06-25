@@ -52,6 +52,31 @@ In phpMyAdmin click in users and set the same password to the user root.
 
 Finally, set your new password in the config.inc.php. Don't change anything else in this file.
 
+SZUFLANDIA:
+ssh s25373.szufladnia.pjwstk.edu.pl
+Logowanie do bazy na szuflandii: mysql -u s22436 -p Syl.Juda <-hasło
+
+Listowanie baz: show databases -> pokazuje wszystkie bazy danych
+
+Wejście: use s22436 -> otwiera podaną bazę
+
+spring.jpa.hibernate.ddl-auto=validate
+spring.datasource.url=jdbc:mysql://szuflandia.pjwstk.edu.pl:3306/s25373
+spring.datasource.name=s25373
+spring.datasource.password=Syl.Juda
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+DOCKER:
+Workbench posiada te bazy danych więc jak się połączysz to w sumie git
+
+
+
+spring.jpa.hibernate.ddl-auto=validate
+spring.datasource.url=jdbc:mysql://szuflandia.pjwstk.edu.pl:3306/s25373
+spring.datasource.name=s25373
+spring.datasource.password=Syl.Juda
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
 JAVA
 
 1.Controller
