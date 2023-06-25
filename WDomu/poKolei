@@ -57,3 +57,4 @@ JAVA
 1.Controller
 2.WYCZYŚĆ TARGET
 3.swagger: http://localhost:8082/swagger-ui/index.html
+4. http://api.nbp.pl/api/exchangerates/rates/a/gbp/2012-01-01/2012-01-31/
