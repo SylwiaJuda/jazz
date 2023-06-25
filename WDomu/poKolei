@@ -56,3 +56,4 @@ JAVA
 
 1.Controller
 2.WYCZYŚĆ TARGET
+3.swagger: http://localhost:8082/swagger-ui/index.html
